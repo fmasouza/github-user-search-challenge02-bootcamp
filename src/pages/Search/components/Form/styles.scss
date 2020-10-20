@@ -1,0 +1,24 @@
+.form-container {
+    padding-top: 65px;
+    padding-left: 90px;
+    padding-bottom: 40px;
+    background: #E6F7FF;
+    border-radius: 16px;
+    font-weight: 500;
+    font-size: 19px;
+    line-height: 46px;
+    color: #262626;
+}
+
+.input-control {
+    background: #FFF;
+    border: 1px solid #D9D9D9;
+    border-radius: 4px;
+    width: 680px;
+    height: 25px;
+
+    &:hover {
+        border-color: 2px solid #D9D9D9;
+        outline: 0;
+    }
+}

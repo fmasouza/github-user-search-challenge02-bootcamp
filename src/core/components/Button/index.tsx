@@ -9,7 +9,7 @@ const Button = ({ text }: Props) => {
     return (
         <div>
             <button className="btn bg-primary">
-                <h5>{text}</h5>
+                {text}
             </button>
         </div>
     );

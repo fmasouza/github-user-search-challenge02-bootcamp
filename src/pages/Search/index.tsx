@@ -8,8 +8,8 @@ const Search = () => {
         
             <div className="search-container">
                 <Form />
-                <div className="card-container">
-                <CardSearch/>
+                <div className="card-container">  
+                    <CardSearch/>
                 </div>
             </div>
        

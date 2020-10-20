@@ -1,14 +1,10 @@
 import React from 'react';
-import Header from './core/components/Header';
-import Home from './pages/Home';
+import Routes from './Routes';
 import './app.scss';
 
 function App() {
   return (
-      <div>
-        <Header />
-        <Home />
-      </div>
+      <Routes />
   );
 }
 

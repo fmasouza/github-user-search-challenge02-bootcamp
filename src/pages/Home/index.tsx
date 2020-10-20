@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import Button from '../../core/components/Button';
 import './styles.scss';
 
@@ -14,7 +15,9 @@ const Home = () => {
                 <p className="home-text-subtitle">Este design foi adaptado a partir de Ant Design System for Figma, 
                 de Mateusz Wierzbicki: <a href="link">antforfigma@gmail.com</a> </p>
                 <div className="btn">
-                <Button text="Começar"/>
+                    <Link to="/search"> 
+                        <Button text="Começar"/>
+                    </Link> 
                 </div>
             </div>
         </div>

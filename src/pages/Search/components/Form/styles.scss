@@ -22,3 +22,92 @@
         outline: 0;
     }
 }
+
+.card-container {
+    background: #F5F5F5;
+    border-radius: 8px;
+    margin-top: 50px;
+}
+
+.card-content{
+    display: flex;
+    padding: 20px 20px 17px 20px;
+}
+
+.card-image {
+    width: 280px;
+    height: 280px;
+}
+
+.git-image {
+    width: 100%;
+}
+
+
+.col-2 {
+    padding-left: 40px;
+    flex: 1;
+}
+
+.repository, .followers, .following {
+    display: inline-block;
+    background: #FFFFFF;
+    border: 1px solid #D9D9D9;
+    border-radius: 5px;
+    margin-right: 10px;
+    font-weight: normal;
+    font-size: 12px;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    line-height: 2;
+
+}
+
+.card-information {
+    padding: 0 15px 10px 15px;
+    margin-top: 12px;
+    background: #FFFFFF;
+    border: 1px solid #D9D9D9;
+    border-radius: 6px;
+}
+
+.card-text {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    color: #1890FF;
+    margin: 11px;
+}
+
+.card-list{
+    margin-top: 10px;
+}
+
+.card-list-text {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #737373;
+    padding-left: 10px;
+}
+
+.card-list-item {
+    background: #FFFFFF;
+    border: 1px solid #D9D9D9;
+    box-sizing: border-box;
+    border-radius: 4px;
+    margin-bottom: 5px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.button-card {
+    display: inline-block;
+    margin-left: 20px;
+    margin-top: 0;
+    margin-bottom: 25px;
+  
+}

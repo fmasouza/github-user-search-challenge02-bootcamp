@@ -3,12 +3,18 @@ import GitImage from '../../../../core/assets/images/Git-Image.png';
 import Button from '../../../../core/components/Button';
 import './styles.scss';
 
+
+
 const CardSearch = () => {
     return (
         <div className="card-container">
             <div className="card-content">
                 <div className="card-image">
-                    <img src={GitImage} alt="" className="git-image"/>
+                    <img 
+                        src={GitImage} 
+                        alt="" 
+                        className="git-image"
+                    />
                 </div>
                 <div className="col-2">
                     <div className="cards-inline">
